@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MachineMaintenanceEngineerController">
+   <children>
+      <Label fx:id="l" alignment="CENTER" layoutX="130.0" layoutY="34.0" prefHeight="17.0" prefWidth="324.0" text="LARGE AUTOMATED RICE MILL" textAlignment="JUSTIFY" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="369.0" prefHeight="17.0" prefWidth="272.0" text="machine maintenance engineer ID: 2131278 " />
+      <Label layoutX="182.0" layoutY="344.0" text="machine maintenance engineer name: mubasshira" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="203.0">
+        <menus>
+          <Menu fx:id="HomeMenu" mnemonicParsing="false" text="Home" />
+          <Menu mnemonicParsing="false" text="Profile">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Edit Profile" />
+                  <MenuItem mnemonicParsing="false" text="Communicate" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="View">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Items" />
+                  <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
+                  <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
+                  <MenuItem mnemonicParsing="false" text="Maintenance History" />
+                  <MenuItem mnemonicParsing="false" text="Shipment History" />
+                  <MenuItem mnemonicParsing="false" text="Shipment Reports" />
+                  <MenuItem mnemonicParsing="false" text="Task" />
+                  <MenuItem mnemonicParsing="false" text="Status" />
+                  <MenuItem mnemonicParsing="false" text="Safety Protocols" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Items" />
+                  <MenuItem mnemonicParsing="false" text="Task" />
+                  <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
+                  <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
+                  <MenuItem mnemonicParsing="false" text="Machine Bills" />
+                  <MenuItem mnemonicParsing="false" text="Maintenance Bills" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Label alignment="CENTER" layoutX="154.0" layoutY="168.0" prefHeight="17.0" prefWidth="290.0" text="Hello, MUBASSHIRA" />
+      <Label alignment="CENTER" layoutX="151.0" layoutY="192.0" prefHeight="17.0" prefWidth="305.0" text="HOPE, YOU'RE HAVING A GREAT DAY!" />
+   </children>
+</AnchorPane>

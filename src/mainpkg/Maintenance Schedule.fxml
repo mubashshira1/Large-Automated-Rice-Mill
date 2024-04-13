@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+   <children>
+      <TableView layoutX="71.0" layoutY="107.0" prefHeight="200.0" prefWidth="413.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Machine ID" />
+          <TableColumn prefWidth="133.0" text="ON Work Schedule" />
+            <TableColumn prefWidth="202.0" text="Available Slots for maintenance" />
+        </columns>
+      </TableView>
+      <Button layoutX="492.0" layoutY="249.0" mnemonicParsing="false" onAction="#EditButtonOnClick" prefHeight="25.0" prefWidth="73.0" text="Edir" />
+      <Button layoutX="492.0" layoutY="282.0" mnemonicParsing="false" onAction="#SubmitButtonOnClick" prefHeight="25.0" prefWidth="73.0" text="Submit" />
+      <Label alignment="CENTER" layoutX="338.0" layoutY="30.0" prefHeight="25.0" prefWidth="227.0" style="-fx-background-color: white;" text="Maintenance Schedule" />
+      <Button layoutX="34.0" layoutY="26.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
