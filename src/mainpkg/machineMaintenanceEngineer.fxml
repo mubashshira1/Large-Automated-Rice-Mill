@@ -41,7 +41,7 @@
             </Menu>
             <Menu mnemonicParsing="false" text="Edit">
               <items>
-                <MenuItem mnemonicParsing="false" text="Items" />
+                <MenuItem mnemonicParsing="false" text="Products" />
                   <MenuItem mnemonicParsing="false" text="Task" />
                   <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
                   <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
@@ -51,7 +51,7 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Label alignment="CENTER" layoutX="238.0" layoutY="158.0" prefHeight="17.0" prefWidth="154.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" />
+      <Label alignment="CENTER" layoutX="238.0" layoutY="158.0" prefHeight="17.0" prefWidth="154.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" underline="true" />
       <Label alignment="CENTER" layoutX="173.0" layoutY="183.0" prefHeight="17.0" prefWidth="290.0" text="Hello, MUBASSHIRA" />
       <Label alignment="CENTER" layoutX="166.0" layoutY="207.0" prefHeight="17.0" prefWidth="305.0" text="HOPE, YOU'RE HAVING A GREAT DAY!" />
    </children>

@@ -9,13 +9,32 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 
 /**
  * FXML Controller class
  *
  * @author User
  */
-public class ShipmentScheduleController implements Initializable {
+public class ViewShipmentReportController implements Initializable {
+
+    @FXML
+    private TableView<?> ViewShipmentReportTableView;
+    @FXML
+    private TableColumn<String, ?> ProductTableColumn;
+    @FXML
+    private TableColumn<?, ?> IssuedDateTableColumn;
+    @FXML
+    private TableColumn<?, ?> ShippingDateTableColumn;
+    @FXML
+    private TableColumn<?, ?> QuantityTableColumn;
+    @FXML
+    private TableColumn<?, ?> BillsTableColumn;
+    @FXML
+    private TableColumn<?, ?> ShippedStatusTableColumn;
+    @FXML
+    private TableColumn<?, ?> DetailsTableColumn;
 
     /**
      * Initializes the controller class.

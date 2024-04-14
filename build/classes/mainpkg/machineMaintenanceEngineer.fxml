@@ -9,20 +9,21 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MachineMaintenanceEngineerController">
    <children>
-      <Label fx:id="l" alignment="CENTER" layoutX="130.0" layoutY="34.0" prefHeight="17.0" prefWidth="324.0" text="LARGE AUTOMATED RICE MILL" textAlignment="JUSTIFY" textOverrun="CLIP">
+      <Label fx:id="l" alignment="CENTER" layoutX="130.0" layoutY="34.0" prefHeight="17.0" prefWidth="324.0" style="-fx-background-color: white;" text="LARGE AUTOMATED RICE MILL" textAlignment="JUSTIFY" textOverrun="CLIP">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
       <Label layoutX="182.0" layoutY="369.0" prefHeight="17.0" prefWidth="272.0" text="machine maintenance engineer ID: 2131278 " />
       <Label layoutX="182.0" layoutY="344.0" text="machine maintenance engineer name: mubasshira" />
-      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="203.0">
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
         <menus>
           <Menu fx:id="HomeMenu" mnemonicParsing="false" text="Home" />
           <Menu mnemonicParsing="false" text="Profile">
             <items>
               <MenuItem mnemonicParsing="false" text="Edit Profile" />
                   <MenuItem mnemonicParsing="false" text="Communicate" />
+                  <MenuItem mnemonicParsing="false" text="Sign Out" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="View">
@@ -40,7 +41,7 @@
             </Menu>
             <Menu mnemonicParsing="false" text="Edit">
               <items>
-                <MenuItem mnemonicParsing="false" text="Items" />
+                <MenuItem mnemonicParsing="false" text="Products" />
                   <MenuItem mnemonicParsing="false" text="Task" />
                   <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
                   <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
@@ -50,7 +51,8 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Label alignment="CENTER" layoutX="154.0" layoutY="168.0" prefHeight="17.0" prefWidth="290.0" text="Hello, MUBASSHIRA" />
-      <Label alignment="CENTER" layoutX="151.0" layoutY="192.0" prefHeight="17.0" prefWidth="305.0" text="HOPE, YOU'RE HAVING A GREAT DAY!" />
+      <Label alignment="CENTER" layoutX="238.0" layoutY="158.0" prefHeight="17.0" prefWidth="154.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" underline="true" />
+      <Label alignment="CENTER" layoutX="173.0" layoutY="183.0" prefHeight="17.0" prefWidth="290.0" text="Hello, MUBASSHIRA" />
+      <Label alignment="CENTER" layoutX="166.0" layoutY="207.0" prefHeight="17.0" prefWidth="305.0" text="HOPE, YOU'RE HAVING A GREAT DAY!" />
    </children>
 </AnchorPane>

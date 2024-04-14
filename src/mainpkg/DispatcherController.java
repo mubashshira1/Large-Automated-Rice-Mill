@@ -42,6 +42,8 @@ public class DispatcherController implements Initializable {
     private MenuItem ShipmentHistoryMenuItem;
     @FXML
     private MenuItem SafetyProtocolMenuItem;
+    @FXML
+    private MenuItem CommunicateMenuItem1;
 
     /**
      * Initializes the controller class.

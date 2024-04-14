@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="mainpkg.ViewShipmentReportController">
+   <children>
+      <Label alignment="CENTER" layoutX="136.0" layoutY="65.0" prefHeight="17.0" prefWidth="270.0" style="-fx-background-color: white;" text="View Shipment Report" />
+      <TableView fx:id="ViewShipmentReportTableView" layoutX="34.0" layoutY="116.0" prefHeight="200.0" prefWidth="548.0">
+        <columns>
+          <TableColumn fx:id="ProductTableColumn" prefWidth="64.0" text="Products" />
+          <TableColumn fx:id="IssuedDateTableColumn" prefWidth="76.0" text="Issued Date" />
+            <TableColumn fx:id="ShippingDateTableColumn" prefWidth="100.0" text="Shipping Date" />
+            <TableColumn fx:id="QuantityTableColumn" prefWidth="71.0" text="Quantity" />
+            <TableColumn fx:id="BillsTableColumn" prefWidth="51.0" text="Bills" />
+            <TableColumn fx:id="ShippedStatusTableColumn" prefWidth="112.0" text="Shipped Status " />
+            <TableColumn fx:id="DetailsTableColumn" prefWidth="51.0" text="Details" />
+        </columns>
+      </TableView>
+      <Button layoutX="34.0" layoutY="23.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="78.0" text="Back" />
+   </children>
+</AnchorPane>

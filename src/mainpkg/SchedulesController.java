@@ -19,30 +19,6 @@ import javafx.scene.control.TableView;
  */
 public class SchedulesController implements Initializable {
 
-    @FXML
-    private TableView<?> MachineMaintenanceTableView;
-    @FXML
-    private TableColumn<?, Integer> MachineIdTableColumn;
-    @FXML
-    private TableColumn<?, ?> OnWorkScheduleTableColumn;
-    @FXML
-    private TableColumn<?, ?> AvailableSlotsForMaintenanceTableColumn;
-    @FXML
-    private TableView<?> TaskTableView;
-    @FXML
-    private TableColumn<?, ?> TaskTableColumn;
-    @FXML
-    private TableColumn<?, ?> DateTableColumn;
-    @FXML
-    private TableColumn<?, ?> TaskStatusTableColumn;
-    @FXML
-    private TableView<?> ShipmentScheduleTableView;
-    @FXML
-    private TableColumn<?, ?> ShipmentIdTableColumn;
-    @FXML
-    private TableColumn<?, ?> ShipmentStatusTableColumn;
-    @FXML
-    private TableColumn<?, ?> ShipmentDateTableColumn;
 
     /**
      * Initializes the controller class.
@@ -53,11 +29,23 @@ public class SchedulesController implements Initializable {
     }    
 
     @FXML
-    private void EditButtonOnClick(ActionEvent event) {
+    private void CloseButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void SubmitButtonOnClick(ActionEvent event) {
+    private void BackButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void TaskScheduleButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void MaintenanceScheduleButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void ShipmentScheduleButtonOnClick(ActionEvent event) {
     }
     
 }

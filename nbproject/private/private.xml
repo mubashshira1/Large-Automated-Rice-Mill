@@ -3,23 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/ShipmentController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/MachineController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/SafetyProtocolController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/ShipmentScheduleController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/ShipmentHistoryController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/MaintenanceTaskController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/DispatcherController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/Maintenance%20Schedule.fxml</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/Task%20Schedule.fxml</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/ShipmentSchedule.fxml</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/TaskController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/MaintenanceHistoryController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/MaintenanceController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/TaskScheduleController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/StatusController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/ProductsController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/LargeAutomatedRiceMill_2131278_Mubasshira/src/mainpkg/SchedulesController.java</file>
+            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/MachineMaintenanceEngineerController.java</file>
         </group>
     </open-files>
 </project-private>

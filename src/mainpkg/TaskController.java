@@ -25,25 +25,29 @@ public class TaskController implements Initializable {
         // TODO
     }    
 
-    @FXML
-    private void ViewTasksCompletedButtonOnClick(ActionEvent event) {
-    }
-
-
-    @FXML
-    private void ViewAndEditTaskScheduleButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void ViewAndEditTaskStatusButtonOnClick(ActionEvent event) {
-    }
 
     @FXML
     private void BackButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void CloseButtonOnClick(ActionEvent event) {
+    private void ViewTaskButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void EditMaintenanceTaskButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void EditShipmentTaskStatusButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void ViewMaintenanceTaskTaskButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void ViewShipmentTaskButtonOnClick(ActionEvent event) {
     }
     
 }

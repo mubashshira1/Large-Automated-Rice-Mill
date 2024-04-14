@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="LargeAutomatedRiceMill_2131278_Mubasshira.jar" size="22784" download="eager" />
+    <jar href="LargeAutomatedRiceMill_2131278_Mubasshira.jar" size="30212" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.Main"  name="LargeAutomatedRiceMill_2131278_Mubasshira" />
   <update check="always"/>

@@ -9,7 +9,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.CheckBox;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -19,20 +19,18 @@ import javafx.scene.control.TextField;
  *
  * @author User
  */
-public class TaskScheduleController implements Initializable {
+public class AddProductsController implements Initializable {
 
     @FXML
-    private DatePicker WorkingDatePicker;
+    private ComboBox<?> QuantityComboBox;
     @FXML
-    private DatePicker DueDatePicker;
+    private DatePicker DispatchedDatePicker;
     @FXML
-    private TextField TaskNameTextField;
+    private DatePicker ShippingDatePicker;
+    @FXML
+    private TextField AddProductTextField;
     @FXML
     private TextArea DetailsTextArea;
-    @FXML
-    private CheckBox CompleteCheckBox;
-    @FXML
-    private CheckBox IncompleteCheckBox;
 
     /**
      * Initializes the controller class.
@@ -42,13 +40,24 @@ public class TaskScheduleController implements Initializable {
         // TODO
     }    
 
+    @FXML
+    private void ViewProductListButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void AddProductsButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void ViewProductBillButtonOnClick(ActionEvent event) {
+    }
 
     @FXML
     private void BackButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void AddTaskButtonOnClick(ActionEvent event) {
+    private void CloseButtonOnClick(ActionEvent event) {
     }
     
 }

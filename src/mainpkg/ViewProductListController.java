@@ -15,7 +15,7 @@ import javafx.fxml.Initializable;
  *
  * @author User
  */
-public class ShipmentScheduleController implements Initializable {
+public class ViewProductListController implements Initializable {
 
     /**
      * Initializes the controller class.

@@ -19,14 +19,6 @@ import javafx.scene.control.TableView;
  */
 public class MaintenanceTaskController implements Initializable {
 
-    @FXML
-    private TableView<?> MaintenanceTaskTableView;
-    @FXML
-    private TableColumn<?, ?> MaintenanceIDTableColumn;
-    @FXML
-    private TableColumn<?, ?> MaintenanceStatusTableColumn;
-    @FXML
-    private TableColumn<?, ?> DateIssuedForMaintenanceTableColumn;
 
     /**
      * Initializes the controller class.
@@ -37,11 +29,8 @@ public class MaintenanceTaskController implements Initializable {
     }    
 
     @FXML
-    private void EditButtonOnClick(ActionEvent event) {
+    private void AddMaintenanceTaskButtonOnClick(ActionEvent event) {
     }
 
-    @FXML
-    private void SubmitButtonOnClick(ActionEvent event) {
-    }
     
 }
