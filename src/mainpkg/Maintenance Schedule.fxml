@@ -6,19 +6,17 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MaintenanceScheduleController">
    <children>
-      <TableView layoutX="71.0" layoutY="107.0" prefHeight="200.0" prefWidth="413.0">
+      <TableView layoutX="71.0" layoutY="107.0" prefHeight="200.0" prefWidth="441.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Machine ID" />
-          <TableColumn prefWidth="133.0" text="ON Work Schedule" />
-            <TableColumn prefWidth="202.0" text="Available Slots for maintenance" />
+          <TableColumn fx:id="MachineIDTableColumn" prefWidth="88.0" text="Machine ID" />
+          <TableColumn fx:id="OnWorkScheduleTableColumn" prefWidth="130.0" text="On Work Schedule" />
+            <TableColumn fx:id="AvailableSlotsForMaintenanceTableColumn" prefWidth="216.0" text="Available Slots for maintenance" />
         </columns>
       </TableView>
-      <Button layoutX="492.0" layoutY="249.0" mnemonicParsing="false" onAction="#EditButtonOnClick" prefHeight="25.0" prefWidth="73.0" text="Edir" />
-      <Button layoutX="492.0" layoutY="282.0" mnemonicParsing="false" onAction="#SubmitButtonOnClick" prefHeight="25.0" prefWidth="73.0" text="Submit" />
-      <Label alignment="CENTER" layoutX="338.0" layoutY="30.0" prefHeight="25.0" prefWidth="227.0" style="-fx-background-color: white;" text="Maintenance Schedule" />
-      <Button layoutX="34.0" layoutY="26.0" mnemonicParsing="false" text="Back" />
+      <Button layoutX="439.0" layoutY="319.0" mnemonicParsing="false" onAction="#EditButtonOnClick" prefHeight="25.0" prefWidth="73.0" text="Edit" />
+      <Label fx:id="MaintenanceScheduleTableView" alignment="CENTER" layoutX="212.0" layoutY="56.0" prefHeight="34.0" prefWidth="227.0" style="-fx-background-color: white;" text="Maintenance Schedule" />
+      <Button layoutX="71.0" layoutY="65.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="51.0" text="Back" />
    </children>
 </AnchorPane>

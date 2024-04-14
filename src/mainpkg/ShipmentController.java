@@ -11,7 +11,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
@@ -21,25 +24,17 @@ import javafx.scene.control.TableColumn;
 public class ShipmentController implements Initializable {
 
     @FXML
-    private TableColumn<?, ?> productsTableColumn;
-    @FXML
-    private TableColumn<?, ?> IssuedDateTableColumn;
-    @FXML
-    private TableColumn<?, ?> ToBeShippedDateTableColumn;
-    @FXML
-    private TableColumn<?, ?> QuantityTableColumn;
-    @FXML
-    private TableColumn<?, ?> BillsTableColumn;
-    @FXML
-    private TableColumn<?, ?> ShippedStatusTableColumn;
-    @FXML
-    private TableColumn<?, ?> DetailsTableColumn;
-    @FXML
     private ComboBox<?> ShipperIdComboBox;
     @FXML
-    private ComboBox<?> ShippingIdComboBox;
-    @FXML
     private DatePicker DatePicker;
+    @FXML
+    private Label ShipmentBillTextField;
+    @FXML
+    private TextField QuantityTextField;
+    @FXML
+    private TextArea DetailsTextField;
+    @FXML
+    private TextField ShippingIdTextField;
 
     /**
      * Initializes the controller class.
@@ -50,15 +45,12 @@ public class ShipmentController implements Initializable {
     }    
 
     @FXML
-    private void EditButtonOnClick(ActionEvent event) {
+    private void BackButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void SubmitButtonOnClick(ActionEvent event) {
+    private void ViewShipmentReportButtonOnClick(ActionEvent event) {
     }
 
-    @FXML
-    private void ShipmentBillButtonOnClick(ActionEvent event) {
-    }
     
 }

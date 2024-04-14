@@ -4,15 +4,25 @@
  */
 package mainpkg;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 /**
  * FXML Controller class
@@ -21,14 +31,7 @@ import javafx.scene.control.TableView;
  */
 public class MaintenanceTaskController implements Initializable {
 
-    @FXML
-    private Label MaintenanceIdTextField;
-    @FXML
     private Label MaintenanceStatusComboBox;
-    @FXML
-    private Label MaintenanceBillTextField;
-    @FXML
-    private DatePicker DateIssuedForMaintenanceDatePicker;
 
 
     /**
@@ -37,14 +40,34 @@ public class MaintenanceTaskController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+             ObservableList<String> maintenancestatus = FXCollections.observableArrayList(
+     "Requires maintenance", "Currently does not requires maintenance");
+     
+     MaintenanceStatusComboBox.setItems(maintenancestatus);
     }    
 
     @FXML
     private void AddMaintenanceTaskButtonOnClick(ActionEvent event) {
+        sceneSwitch("/com/MachineMaintenanceEngineer/views/Maintenance/AddMaintenanceTaskButtonOnClick.fxml"); 
     }
 
     @FXML
-    private void BackButtonOnCLick(ActionEvent event) {
+    private void BackButtonOnCLick(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Task.fxml"));
+        Parent parent = loader.load();
+
+        
+        Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+
+        Scene Task = new Scene(parent);
+
+        currentStage.setScene(Task);
+        currentStage.show();
+    }
+
+    @FXML
+    private void ViewMaintenanceHistoryButtonOnClick(ActionEvent event) {
     }
 
     

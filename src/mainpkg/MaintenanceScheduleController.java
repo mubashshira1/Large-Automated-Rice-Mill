@@ -9,7 +9,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 
 /**
@@ -17,18 +17,16 @@ import javafx.scene.control.TableColumn;
  *
  * @author User
  */
-public class MachineController implements Initializable {
+public class MaintenanceScheduleController implements Initializable {
 
     @FXML
-    private TableColumn<?, ?> MachineIdTableColumn;
+    private TableColumn<?, ?> MachineIDTableColumn;
     @FXML
-    private TableColumn<?, ?> MachineStatusTableColumn;
+    private TableColumn<?, ?> OnWorkScheduleTableColumn;
     @FXML
-    private TableColumn<?, ?> LastManufacturedTableColumn;
+    private TableColumn<?, ?> AvailableSlotsForMaintenanceTableColumn;
     @FXML
-    private ComboBox<?> MonthComboBox;
-    @FXML
-    private TableColumn<?, ?> MaintenanceBillTableColumn;
+    private Label MaintenanceScheduleTableView;
 
     /**
      * Initializes the controller class.
@@ -39,19 +37,11 @@ public class MachineController implements Initializable {
     }    
 
     @FXML
-    private void AddReportButtonOnClick(ActionEvent event) {
+    private void EditButtonOnClick(ActionEvent event) {
     }
 
     @FXML
     private void BackButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void ViewScheduledDateButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void ViewMaintenanceButtonOnClick(ActionEvent event) {
     }
     
 }

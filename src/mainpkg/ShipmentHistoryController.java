@@ -39,6 +39,7 @@ public class ShipmentHistoryController implements Initializable {
 
     @FXML
     private void ViewShipmentReportButtonClick(ActionEvent event) {
+        sceneSwitch("/com/Dispatcher/views/Shipment/ViewShipmentReportButtonClick.fxml");
     }
 
     @FXML
