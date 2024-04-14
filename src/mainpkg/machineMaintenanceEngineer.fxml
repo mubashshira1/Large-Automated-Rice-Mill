@@ -51,7 +51,7 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Label alignment="CENTER" layoutX="177.0" layoutY="158.0" prefHeight="17.0" prefWidth="311.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" underline="true" />
+      <Label alignment="CENTER" layoutX="177.0" layoutY="158.0" prefHeight="17.0" prefWidth="280.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" underline="true" />
       <Label alignment="CENTER" layoutX="173.0" layoutY="183.0" prefHeight="17.0" prefWidth="290.0" text="Hello, MUBASSHIRA" />
       <Label alignment="CENTER" layoutX="166.0" layoutY="207.0" prefHeight="17.0" prefWidth="305.0" text="HOPE, YOU'RE HAVING A GREAT DAY!" />
    </children>

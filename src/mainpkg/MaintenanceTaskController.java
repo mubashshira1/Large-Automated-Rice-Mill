@@ -9,6 +9,8 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
@@ -18,6 +20,15 @@ import javafx.scene.control.TableView;
  * @author User
  */
 public class MaintenanceTaskController implements Initializable {
+
+    @FXML
+    private Label MaintenanceIdTextField;
+    @FXML
+    private Label MaintenanceStatusComboBox;
+    @FXML
+    private Label MaintenanceBillTextField;
+    @FXML
+    private DatePicker DateIssuedForMaintenanceDatePicker;
 
 
     /**
@@ -30,6 +41,10 @@ public class MaintenanceTaskController implements Initializable {
 
     @FXML
     private void AddMaintenanceTaskButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void BackButtonOnCLick(ActionEvent event) {
     }
 
     

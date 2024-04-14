@@ -19,8 +19,7 @@
         </columns>
       </TableView>
       <Label alignment="CENTER" layoutX="410.0" layoutY="24.0" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: white;" text="MACHINE REPORT" />
-      <Button layoutX="490.0" layoutY="213.0" mnemonicParsing="false" onAction="#EditButtonOnClick" prefHeight="25.0" prefWidth="72.0" text="Edit" />
-      <Button layoutX="490.0" layoutY="251.0" mnemonicParsing="false" onAction="#SubmitButtonOnClick" prefHeight="25.0" prefWidth="72.0" text="Submit" />
+      <Button layoutX="490.0" layoutY="213.0" mnemonicParsing="false" onAction="#AddReportButtonOnClick" prefHeight="25.0" prefWidth="84.0" text="Add Report" />
       <Label layoutX="61.0" layoutY="123.0" prefHeight="17.0" prefWidth="119.0" text="Week Of The Month: " />
       <TextField layoutX="219.0" layoutY="119.0" promptText="nth week of the month?" />
       <Label layoutX="61.0" layoutY="155.0" prefHeight="17.0" prefWidth="513.0" text="The Table Shows Weekly Report Of The Selected Month:-" />

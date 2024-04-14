@@ -19,7 +19,9 @@ import javafx.scene.control.DatePicker;
 public class MaintenanceHistoryController implements Initializable {
 
     @FXML
-    private DatePicker DatePicker;
+    private DatePicker FromDateDatePicker;
+    @FXML
+    private DatePicker TillDateDatePicker;
 
     /**
      * Initializes the controller class.
@@ -31,6 +33,7 @@ public class MaintenanceHistoryController implements Initializable {
 
     @FXML
     private void ViewMaintenanceReportOnClick(ActionEvent event) {
+     sceneSwitch("/com/MachineMaintenanceEngineer/views/Maintenance/ViewMaintenanceReportOnClick.fxml");       
     }
     
 }
