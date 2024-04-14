@@ -19,23 +19,23 @@
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
         <menus>
           <Menu fx:id="HomeMenu" mnemonicParsing="false" text="Home" />
-          <Menu mnemonicParsing="false" text="Profile">
+          <Menu fx:id="ProfileMenu" mnemonicParsing="false" text="Profile">
             <items>
-              <MenuItem mnemonicParsing="false" text="Edit Profile" />
-                  <MenuItem mnemonicParsing="false" text="Communicate" />
-                  <MenuItem mnemonicParsing="false" text="Sign Out" />
+              <MenuItem fx:id="EditProfileMenuItem" mnemonicParsing="false" text="Edit Profile" />
+                  <MenuItem fx:id="CommunicateMenuItem" mnemonicParsing="false" text="Communicate" />
+                  <MenuItem fx:id="SignOutMenuItem" mnemonicParsing="false" text="Sign Out" />
             </items>
           </Menu>
-            <Menu mnemonicParsing="false" text="View">
+            <Menu fx:id="ViewMenu" mnemonicParsing="false" text="View">
               <items>
-                <MenuItem mnemonicParsing="false" text="Items" />
-                  <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
-                  <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
-                  <MenuItem mnemonicParsing="false" text="Maintenance History" />
-                  <MenuItem mnemonicParsing="false" text="Shipment History" />
-                  <MenuItem mnemonicParsing="false" text="Shipment Reports" />
-                  <MenuItem mnemonicParsing="false" text="Task" />
-                  <MenuItem mnemonicParsing="false" text="Status" />
+                <MenuItem fx:id="ProductsMenuItem" mnemonicParsing="false" text="Products" />
+                  <MenuItem fx:id="MaintenanceReportMenuItem" mnemonicParsing="false" text="Maintenance Report" />
+                  <MenuItem fx:id="MaintenanceScheduleMenuItem" mnemonicParsing="false" text="Maintenance Schedules" />
+                  <MenuItem fx:id="MaintenanceHistoryMenuItem" mnemonicParsing="false" text="Maintenance History" />
+                  <MenuItem fx:id="ShipmentHistoryMenuItem" mnemonicParsing="false" text="Shipment History" />
+                  <MenuItem fx:id="ShipmentReport" mnemonicParsing="false" text="Shipment Reports" />
+                  <MenuItem fx:id="TaskMenuItem" mnemonicParsing="false" text="Task" />
+                  <MenuItem fx:id="StatusMenuItem" mnemonicParsing="false" text="Status" />
                   <MenuItem mnemonicParsing="false" text="Safety Protocols" />
               </items>
             </Menu>
@@ -46,12 +46,12 @@
                   <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
                   <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
                   <MenuItem mnemonicParsing="false" text="Machine Bills" />
-                  <MenuItem mnemonicParsing="false" text="Maintenance Bills" />
+                  <MenuItem fx:id="MaintenanceBills" mnemonicParsing="false" text="Maintenance Bills" />
               </items>
             </Menu>
         </menus>
       </MenuBar>
-      <Label alignment="CENTER" layoutX="238.0" layoutY="158.0" prefHeight="17.0" prefWidth="154.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" underline="true" />
+      <Label alignment="CENTER" layoutX="177.0" layoutY="158.0" prefHeight="17.0" prefWidth="311.0" style="-fx-background-color: white;" text="LOG IN SUCCESSFUL" underline="true" />
       <Label alignment="CENTER" layoutX="173.0" layoutY="183.0" prefHeight="17.0" prefWidth="290.0" text="Hello, MUBASSHIRA" />
       <Label alignment="CENTER" layoutX="166.0" layoutY="207.0" prefHeight="17.0" prefWidth="305.0" text="HOPE, YOU'RE HAVING A GREAT DAY!" />
    </children>

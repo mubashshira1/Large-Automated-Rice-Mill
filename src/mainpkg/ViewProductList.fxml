@@ -6,16 +6,15 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="mainpkg.ViewProductListController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ViewProductListController">
    <children>
       <Label alignment="CENTER" layoutX="160.0" layoutY="64.0" prefHeight="17.0" prefWidth="225.0" style="-fx-background-color: white;" text="VIEW PRODUCT LIST" />
       <TableView layoutX="78.0" layoutY="113.0" prefHeight="200.0" prefWidth="422.0">
         <columns>
-          <TableColumn prefWidth="96.0" text="product name" />
-          <TableColumn prefWidth="104.0" text="dispatched date" />
-            <TableColumn prefWidth="102.0" text="shipping date" />
-            <TableColumn minWidth="0.0" prefWidth="101.0" text="product bill" />
+          <TableColumn prefWidth="96.0" text="Product Name" />
+          <TableColumn prefWidth="104.0" text="Dispatched Date" />
+            <TableColumn prefWidth="102.0" text="Shipping Date" />
+            <TableColumn minWidth="0.0" prefWidth="101.0" text="Product Bill" />
         </columns>
       </TableView>
       <Button layoutX="26.0" layoutY="27.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="62.0" text="Back" />
