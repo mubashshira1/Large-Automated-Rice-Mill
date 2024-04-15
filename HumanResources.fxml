@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.HumanResourcesController">
+    <stylesheets>
+        <URL value="@humanresources.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="AddendenceAndLeaveButton" layoutX="326.0" layoutY="56.0" mnemonicParsing="false" onAction="#AddendenceAndLeaveButtonOnClicked" prefHeight="61.0" prefWidth="162.0" text="Addendence &amp; Leave " />
+      <Button fx:id="TrainingMaterialButton" layoutX="124.0" layoutY="158.0" mnemonicParsing="false" onAction="#TrainingMaterialButtonOnClicked" prefHeight="61.0" prefWidth="125.0" text="Training Material" />
+      <Button fx:id="CommunicationButton" layoutX="338.0" layoutY="158.0" mnemonicParsing="false" onAction="#CommunicationButtonOnClicked" prefHeight="61.0" prefWidth="105.0" text="Communication" />
+      <Button fx:id="EditEmployeeButton" layoutX="87.0" layoutY="56.0" mnemonicParsing="false" onAction="#EditEmployeeOnClicked" prefHeight="61.0" prefWidth="162.0" text="Edit Employee" />
+      <Button fx:id="CompleteInformationButton" layoutX="108.0" layoutY="266.0" mnemonicParsing="false" onAction="#CompleteInformationButtonOnClicked" prefHeight="61.0" prefWidth="141.0" text="Complete Information" />
+      <Button fx:id="FeedbackButton" layoutX="338.0" layoutY="266.0" mnemonicParsing="false" onAction="#FeedbackButtonOnClicked" prefHeight="61.0" prefWidth="94.0" text="Feedback" />
+      <Button fx:id="BackButton" layoutX="35.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackButtonOnClicked" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
