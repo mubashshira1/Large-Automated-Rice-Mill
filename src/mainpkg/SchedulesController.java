@@ -52,6 +52,7 @@ public class SchedulesController implements Initializable {
 
     @FXML
     private void TaskScheduleButtonOnClick(ActionEvent event) {
+        
     }
 
     @FXML

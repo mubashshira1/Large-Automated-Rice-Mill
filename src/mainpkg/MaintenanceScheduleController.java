@@ -26,11 +26,11 @@ import javafx.stage.Stage;
 public class MaintenanceScheduleController implements Initializable {
 
     @FXML
-    private TableColumn<?, ?> MachineIDTableColumn;
+    private TableColumn<MaintenanceSchedule, Integer> MachineIDTableColumn;
     @FXML
-    private TableColumn<?, ?> OnWorkScheduleTableColumn;
+    private TableColumn<MaintenanceSchedule, Integer> OnWorkScheduleTableColumn;
     @FXML
-    private TableColumn<?, ?> AvailableSlotsForMaintenanceTableColumn;
+    private TableColumn<MaintenanceSchedule, Integer> AvailableSlotsForMaintenanceTableColumn;
     @FXML
     private Label MaintenanceScheduleTableView;
 

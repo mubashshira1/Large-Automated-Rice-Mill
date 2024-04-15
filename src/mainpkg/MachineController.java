@@ -65,9 +65,6 @@ public class MachineController implements Initializable {
         currentStage.show();  
     }
 
-    @FXML
-    private void AddReportButtonOnClick(ActionEvent event) {
-    }
 
     
 }

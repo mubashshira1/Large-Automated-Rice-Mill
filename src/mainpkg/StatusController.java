@@ -8,6 +8,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 
@@ -21,7 +22,9 @@ public class StatusController implements Initializable {
     @FXML
     private DatePicker DatePicker;
     @FXML
-    private ComboBox<?> ConditionComboBox;
+    private ComboBox<String> ConditionComboBox;
+    @FXML
+    private Button viewStatusButtonOnClick;
 
     /**
      * Initializes the controller class.
