@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.Technical_SupportController">
+   <children>
+      <ComboBox fx:id="checkOptions" layoutX="277.0" layoutY="139.0" prefWidth="150.0" />
+      <Text fx:id="chooseOptionsT" layoutX="65.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Options for Execution:" />
+      <Text fx:id="textCheck" layoutX="66.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="157.4413999915123" />
+      <Text fx:id="PanelT" layoutX="119.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Technical Support" textAlignment="CENTER" wrappingWidth="397.72900390625">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="titleOfTheProjectT" layoutX="196.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simulating operations of a Large Automatic rice mill" />
+      <Button layoutX="232.0" layoutY="349.0" mnemonicParsing="false" onAction="#getReportB" prefHeight="25.0" prefWidth="157.0" text="Get Report (Updates)" />
+      <Button layoutX="274.0" layoutY="307.0" mnemonicParsing="false" onAction="#submitB" prefHeight="25.0" prefWidth="157.0" text="Submit" />
+      <TextField fx:id="textInput" layoutX="278.0" layoutY="242.0" />
+      <Text fx:id="input" layoutX="65.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sugeestions (Improvements)" wrappingWidth="176.99999648332596" />
+      <Text layoutX="66.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requests (Problems) :" wrappingWidth="217.99999648332596" />
+      <Text fx:id="textCheck1" layoutX="66.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID :" wrappingWidth="157.4413999915123" />
+      <TextField fx:id="idNumber" layoutX="278.0" layoutY="207.0" />
+      <TextField fx:id="name" layoutX="278.0" layoutY="179.0" />
+      <TextField fx:id="textInpurtImprovements" layoutX="278.0" layoutY="274.0" />
+   </children>
+</AnchorPane>
