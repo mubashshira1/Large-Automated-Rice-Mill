@@ -3,16 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/MaintenanceScheduleController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/MachineMaintenanceEngineerController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/TaskScheduleController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/SchedulesController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/DispatcherController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/ProductsController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/AddProductsController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/ReportController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/ShipmentController.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/Large-Automated-Rice-Mill/src/mainpkg/MachineController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/SupplierController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/MyProject.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/SalesTeamController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/EmployeeListController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/Item_ListController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/MarketAnalysisController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/ReportAnalysisController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/OrderController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/FXMLDocumentController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/Customer_FeedbackController.java</file>
+            <file>file:/D:/OOP/Project/myproject/src/main/SalesManagerController.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Item_ListController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="762.0">
+         <children>
+            <Button fx:id="findDetailsbutton" layoutX="392.0" layoutY="148.0" mnemonicParsing="false" text="Find Details ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="itemlistL" layoutX="303.0" layoutY="55.0" minHeight="16" minWidth="69" text="Item List">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Label>
+      <Text fx:id="itemlistL" layoutX="109.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item List:" />
+      <TableView layoutX="24.0" layoutY="275.0" prefHeight="226.0" prefWidth="680.0">
+         <columns>
+            <TableColumn fx:id="itemNameTB" prefWidth="163.99994468688965" text=" Item Name" />
+            <TableColumn fx:id="itemDetailsTB" prefWidth="222.4000244140625" text="Item Details " />
+            <TableColumn fx:id="itemPriceTB" prefWidth="172.79995727539062" text="Price" />
+            <TableColumn fx:id="itemAvailableTB" minWidth="0.0" prefWidth="122.39996337890625" text="Item Available" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="itemlistCB" layoutX="174.0" layoutY="146.0" prefWidth="150.0" promptText="Select Item" />
+   </children>
+</AnchorPane>

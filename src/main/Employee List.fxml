@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.EmployeeListController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="554.0" prefWidth="691.0">
+         <children>
+            <Label fx:id="employeelistLalel" layoutX="261.0" layoutY="44.0" minHeight="16" minWidth="69" text="Employee List">
+               <font>
+                  <Font name="Arial" size="27.0" />
+               </font>
+            </Label>
+            <Text fx:id="employeenameL" layoutX="28.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee Name:" />
+            <TextField fx:id="employeenameTF" layoutX="135.0" layoutY="122.0" />
+            <Text fx:id="employeeIDL" layoutX="51.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee ID:" />
+            <TextField fx:id="employeeIDTF" layoutX="136.0" layoutY="162.0" />
+            <Text fx:id="departmentL" layoutX="53.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Department:" />
+            <ComboBox fx:id="departmentCB" layoutX="136.0" layoutY="206.0" prefWidth="150.0" promptText="Select Department" />
+            <TableView layoutX="135.0" layoutY="330.0" prefHeight="151.0" prefWidth="463.0">
+               <columns>
+                  <TableColumn fx:id="positionTB" prefWidth="159.20001220703125" text="Position" />
+                  <TableColumn fx:id="salaryTB" minWidth="0.0" prefWidth="155.199951171875" text="Salary" />
+                  <TableColumn fx:id="yearTB" prefWidth="148.00003051757812" text="Year" />
+               </columns>
+            </TableView>
+            <Label fx:id="AddressL" layoutX="73.0" layoutY="268.0" prefHeight="26.0" prefWidth="518.0" text="Address:" />
+            <Button fx:id="findemployeeButton" layoutX="386.0" layoutY="135.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="127.0" text="Find Employee">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
