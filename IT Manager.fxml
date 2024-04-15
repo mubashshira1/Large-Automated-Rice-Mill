@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ITManagerController">
+   <children>
+      <Text fx:id="titleOfTheProjectT" layoutX="168.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simulating operations of a Large Automatic rice mill" />
+      <Button layoutX="96.0" layoutY="164.0" mnemonicParsing="false" onAction="#operationOfItSystemsB" text="Operation of IT Systems" />
+      <Button layoutX="97.0" layoutY="239.0" mnemonicParsing="false" onAction="#businessContinuityB" text="BusinessContinuity" />
+      <Button layoutX="96.0" layoutY="200.0" mnemonicParsing="false" onAction="#cyberSecurityB" text="Cybersecurity" />
+      <Button layoutX="97.0" layoutY="273.0" mnemonicParsing="false" onAction="#dataManagementB" text="Data Source Management and Storage" />
+      <Button layoutX="291.0" layoutY="200.0" mnemonicParsing="false" onAction="#technicalSupportB" text="Technicalsupport" />
+      <Button layoutX="291.0" layoutY="164.0" mnemonicParsing="false" onAction="#innovationB" text="Innovation and Continuous Improvement" />
+      <Button layoutX="291.0" layoutY="239.0" mnemonicParsing="false" onAction="#complianceB" text="Compliance with Regulatory " />
+      <Text fx:id="clickToSeeT" layoutX="97.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click to see all info: " />
+      <Text fx:id="itManagerPanelT" layoutX="174.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IT Manager PANEL">
+         <font>
+            <Font size="29.0" />
+         </font></Text>
+      <Button layoutX="96.0" layoutY="311.0" mnemonicParsing="false" onAction="#innovationB" text="System Integration and Automation" />
+   </children>
+</AnchorPane>

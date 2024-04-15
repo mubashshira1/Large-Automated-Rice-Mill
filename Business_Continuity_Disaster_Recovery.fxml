@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.Business_Continuity_Disaster_RecoveryController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
+      <ComboBox fx:id="checkOptionsComboBox" layoutX="278.0" layoutY="139.0" prefWidth="150.0" />
+      <Text fx:id="chooseOptionsTF" layoutX="60.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Options for Execution:" />
+      <TextField fx:id="planTF" layoutX="278.0" layoutY="206.0" />
+      <Text fx:id="inputTF" layoutX="62.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input ( recommendations ) :" wrappingWidth="204.99999648332596" />
+      <Label fx:id="result" layoutX="270.0" layoutY="265.0" prefHeight="17.0" prefWidth="82.0" />
+      <Text fx:id="planTF" layoutX="62.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plan Uploaded ? : (Text File)" wrappingWidth="157.4413999915123" />
+      <Text fx:id="PanelTF" layoutX="157.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Business Continuity and Disaster Recovery">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="titleOfTheProjectTF" layoutX="184.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simulating operations of a Large Automatic rice mill" />
+      <Button layoutX="279.0" layoutY="292.0" mnemonicParsing="false" onAction="#getReportButtonOnClick" prefHeight="25.0" prefWidth="157.0" text="Get Report (Verify)" />
+      <Button layoutX="274.0" layoutY="172.0" mnemonicParsing="false" onAction="#validateButtonOnAction" prefHeight="25.0" prefWidth="157.0" text="Validate" />
+      <Label fx:id="resultInfoTF" layoutX="62.0" layoutY="231.0" prefHeight="17.0" prefWidth="217.0" text="Improving disaster recovery capabilities." />
+   </children>
+</AnchorPane>
