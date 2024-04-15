@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ShipmentController">
+   <children>
+      <Label alignment="CENTER" layoutX="113.0" layoutY="24.0" prefHeight="17.0" prefWidth="338.0" text="SHIPMENT REPORT" />
+      <Label layoutX="39.0" layoutY="71.0" prefHeight="17.0" prefWidth="92.0" text="Shipper's ID:" />
+      <TableView layoutX="39.0" layoutY="200.0" prefHeight="122.0" prefWidth="535.0">
+        <columns>
+          <TableColumn fx:id="productsTableColumn" prefWidth="59.0" text="Products" />
+          <TableColumn fx:id="IssuedDateTableColumn" prefWidth="72.0" text="Issued Date" />
+            <TableColumn fx:id="ToBeShippedDateTableColumn" prefWidth="120.0" text="To Be Shipped Date" />
+            <TableColumn fx:id="QuantityTableColumn" prefWidth="56.0" text="Quantity" />
+            <TableColumn fx:id="BillsTableColumn" prefWidth="65.0" text="Bills" />
+            <TableColumn fx:id="ShippedStatusTableColumn" minWidth="0.0" prefWidth="94.0" text="Shipped Status " />
+            <TableColumn fx:id="DetailsTableColumn" prefWidth="58.0" text="Details" />
+        </columns>
+      </TableView>
+      <Label layoutX="39.0" layoutY="104.0" prefHeight="17.0" prefWidth="83.0" text="Shipping Id:" />
+      <ComboBox fx:id="ShipperIdComboBox" layoutX="141.0" layoutY="67.0" prefHeight="25.0" prefWidth="124.0" />
+      <ComboBox fx:id="ShippingIdComboBox" layoutX="141.0" layoutY="100.0" prefHeight="25.0" prefWidth="124.0" />
+      <Button layoutX="288.0" layoutY="100.0" mnemonicParsing="false" onAction="#EditButtonOnClick" prefHeight="25.0" prefWidth="273.0" text=" EDIT " />
+      <Button layoutX="288.0" layoutY="141.0" mnemonicParsing="false" onAction="#SubmitButtonOnClick" prefHeight="25.0" prefWidth="273.0" text="SUBMIT" />
+      <Label layoutX="39.0" layoutY="145.0" prefHeight="17.0" prefWidth="64.0" text="Month:" />
+      <DatePicker fx:id="DatePicker" layoutX="141.0" layoutY="141.0" prefHeight="25.0" prefWidth="124.0" />
+      <Button layoutX="288.0" layoutY="67.0" mnemonicParsing="false" onAction="#ShipmentBillButtonOnClick" prefHeight="25.0" prefWidth="273.0" text="View Total Shipment Bill Of The Selected Month" />
+   </children>
+</AnchorPane>
