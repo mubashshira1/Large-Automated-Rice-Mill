@@ -26,11 +26,11 @@ import javafx.stage.Stage;
 public class ViewShipmentReportController implements Initializable {
 
     @FXML
-    private TableView<?> ViewShipmentReportTableView;
+    private TableView<String> ViewShipmentReportTableView;
     @FXML
-    private TableColumn<String, ?> ProductTableColumn;
+    private TableColumn<String,String ?> ProductTableColumn;
     @FXML
-    private TableColumn<?, ?> IssuedDateTableColumn;
+    private TableColumn<ShipmentReport, DatePicker> IssuedDateTableColumn;
     @FXML
     private TableColumn<?, ?> ShippingDateTableColumn;
     @FXML

@@ -41,7 +41,7 @@ public class MaintenanceController implements Initializable {
 
     @FXML
     private void ViewMaintenanceHistoryButtonOnClick(ActionEvent event) {
-    sceneSwitch("/com/MachineMaintenanceEngineer/views/Maintenance/ViewMaintenanceHistoryButtonOnClick.fxml");
+    //sceneSwitch("/com/MachineMaintenanceEngineer/views/Maintenance/ViewMaintenanceHistoryButtonOnClick.fxml");
     }
 
     @FXML

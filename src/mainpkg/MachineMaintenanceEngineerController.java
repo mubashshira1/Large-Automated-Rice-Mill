@@ -64,7 +64,7 @@ public class MachineMaintenanceEngineerController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-            sceneSwithch("/com/MachineMaintenanceEngineer/views/MachineMaintenanceEngineer/Home.fxml");
+           // sceneSwithch("/com/MachineMaintenanceEngineer/views/MachineMaintenanceEngineer/Home.fxml");
     }    
     
 }

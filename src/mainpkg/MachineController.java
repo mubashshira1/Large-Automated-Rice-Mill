@@ -31,13 +31,13 @@ import javafx.stage.Stage;
 public class MachineController implements Initializable {
 
     @FXML
-    private TableColumn<?, ?> MachineIdTableColumn;
+    private TableColumn<Machine, Integer> MachineIdTableColumn;
     @FXML
-    private TableColumn<?, ?> MachineStatusTableColumn;
+    private TableColumn<Machine, String> MachineStatusTableColumn;
     @FXML
-    private TableColumn<?, ?> LastManufacturedTableColumn;
+    private TableColumn<Machine, Integer> LastManufacturedTableColumn;
     @FXML
-    private TableColumn<?, ?> MaintenanceBillTableColumn;
+    private TableColumn<Machine, Integer> MaintenanceBillTableColumn;
     
     
 
@@ -46,8 +46,42 @@ public class MachineController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        
         // TODO
     }    
+
+    public TableColumn<Machine, Integer> getMachineIdTableColumn() {
+        return MachineIdTableColumn;
+    }
+
+    public void setMachineIdTableColumn(TableColumn<Machine, Integer> MachineIdTableColumn) {
+        this.MachineIdTableColumn = MachineIdTableColumn;
+    }
+
+    public TableColumn<Machine, String> getMachineStatusTableColumn() {
+        return MachineStatusTableColumn;
+    }
+
+    public void setMachineStatusTableColumn(TableColumn<Machine, String> MachineStatusTableColumn) {
+        this.MachineStatusTableColumn = MachineStatusTableColumn;
+    }
+
+    public TableColumn<Machine, Integer> getLastManufacturedTableColumn() {
+        return LastManufacturedTableColumn;
+    }
+
+    public void setLastManufacturedTableColumn(TableColumn<Machine, Integer> LastManufacturedTableColumn) {
+        this.LastManufacturedTableColumn = LastManufacturedTableColumn;
+    }
+
+    public TableColumn<Machine, Integer> getMaintenanceBillTableColumn() {
+        return MaintenanceBillTableColumn;
+    }
+
+    public void setMaintenanceBillTableColumn(TableColumn<Machine, Integer> MaintenanceBillTableColumn) {
+        this.MaintenanceBillTableColumn = MaintenanceBillTableColumn;
+        
+    }
 
 
     @FXML

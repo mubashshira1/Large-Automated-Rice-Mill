@@ -31,7 +31,7 @@ public class AddProductsController implements Initializable {
     Alert noDate = new Alert(Alert.AlertType.WARNING, "Please Choose Date");
     Alert Unfilled = new Alert(Alert.AlertType.WARNING, "Please Enter Everything");
     Alert Success = new Alert(Alert.AlertType.INFORMATION, "Succesfully Added!");
-    private ComboBox<?> QuantityComboBox;
+    private ComboBox<Integer> QuantityComboBox;
     private TextArea DetailsTextArea;
     @FXML
     private ComboBox<?> quantityComboBox;
@@ -76,15 +76,16 @@ public class AddProductsController implements Initializable {
         Unfilled.show();
         return;
     }
+    {
 
-    LocalDate date = DatePicker.getValue();
+    //LocalDate date = DatePicker.getValue();
     if (date == null) {
         noDate.show();
         return;
     }
     String details = DetailsTextArea.getText();
 
-    ProductLists newAR = new ProductLists(productText, quantity, date, details);
+    //ProductsLists newAR = new ProductsLists(productText, quantity, date, details);
 
     Success.show();   
     
@@ -94,19 +95,22 @@ public class AddProductsController implements Initializable {
 
     @FXML
     private void BackButtonOnClick(ActionEvent event)throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("MachineMaintenanceEngineer.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Products.fxml"));
         Parent parent = loader.load();
-
+        
         
         Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
+        Scene Products = new Scene(parent);
 
+        currentStage.setScene(Products);
+        currentStage.show(); 
     }
 
     private void ViewProductListButtonOnClick(ActionEvent event) {
-        Scene MachineMaintenanceEngineer = new Scene(parent);
+        //Scene MachineMaintenanceEngineer = new Scene(parent);
 
-        currentStage.setScene(MachineMaintenanceEngineer);
+        //currentStage.setScene(MachineMaintenanceEngineer);
     
     }
     }

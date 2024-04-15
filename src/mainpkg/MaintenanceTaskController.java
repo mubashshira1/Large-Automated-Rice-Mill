@@ -39,7 +39,7 @@ public class MaintenanceTaskController implements Initializable {
     @FXML
     private TextField maintenanceBillTextField;
     @FXML
-    private ComboBox<?> maintenanceStatusComboBox;
+    private ComboBox<String> maintenanceStatusComboBox;
     @FXML
     private DatePicker dateIssuedForMaintenanceDatePicker;
 
@@ -53,8 +53,32 @@ public class MaintenanceTaskController implements Initializable {
              ObservableList<String> maintenancestatus = FXCollections.observableArrayList(
      "Requires maintenance", "Currently does not requires maintenance");
      
-     MaintenanceStatusComboBox.setItems(maintenancestatus);
+
     }    
+
+    public Label getMaintenanceStatusComboBox() {
+        return MaintenanceStatusComboBox;
+    }
+
+    public Label getDateIssuedForMaintenanceDatePicker() {
+        return DateIssuedForMaintenanceDatePicker;
+    }
+
+    public TextField getMaintenanceIdTextField() {
+        return maintenanceIdTextField;
+    }
+
+    public TextField getMaintenanceBillTextField() {
+        return maintenanceBillTextField;
+    }
+
+    public ComboBox<String> getMaintenanceStatusComboBox() {
+        return maintenanceStatusComboBox;
+    }
+
+    public DatePicker getDateIssuedForMaintenanceDatePicker() {
+        return dateIssuedForMaintenanceDatePicker;
+    }
 
     @FXML
     private void AddMaintenanceTaskButtonOnClick(ActionEvent event) {
