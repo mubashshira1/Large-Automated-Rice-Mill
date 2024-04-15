@@ -13,16 +13,16 @@
       <Button layoutX="43.0" layoutY="30.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="98.0" text="Back" />
       <Label alignment="CENTER" layoutX="287.0" layoutY="34.0" prefHeight="25.0" prefWidth="264.0" style="-fx-background-color: white;" text="Add Task " />
       <Label layoutX="48.0" layoutY="100.0" text="Task name:" />
-      <DatePicker fx:id="WorkingDatePicker" layoutX="140.0" layoutY="133.0" prefHeight="25.0" prefWidth="174.0" />
+      <DatePicker fx:id="workingDatePicker" layoutX="140.0" layoutY="133.0" prefHeight="25.0" prefWidth="174.0" />
       <Label layoutX="48.0" layoutY="137.0" text="Working Date:" />
       <Label layoutX="50.0" layoutY="175.0" text="Due Date:" />
       <Label layoutX="46.0" layoutY="212.0" text="Task Status" />
       <Label layoutX="48.0" layoutY="250.0" text="Details" />
-      <DatePicker fx:id="DueDatePicker" layoutX="143.0" layoutY="171.0" prefHeight="17.0" prefWidth="174.0" />
-      <TextField fx:id="TaskNameTextField" layoutX="140.0" layoutY="96.0" prefHeight="25.0" prefWidth="174.0" />
-      <TextArea fx:id="DetailsTextArea" layoutX="143.0" layoutY="250.0" prefHeight="117.0" prefWidth="200.0" />
-      <CheckBox fx:id="CompleteCheckBox" layoutX="143.0" layoutY="212.0" mnemonicParsing="false" text="complete" />
-      <CheckBox fx:id="IncompleteCheckBox" layoutX="243.0" layoutY="212.0" mnemonicParsing="false" text="incomplete" />
-      <Button layoutX="370.0" layoutY="336.0" mnemonicParsing="false" onAction="#AddTaskButtonOnClick" prefHeight="25.0" prefWidth="116.0" text="Add Task" />
+      <DatePicker fx:id="dueDatePicker" layoutX="143.0" layoutY="171.0" prefHeight="17.0" prefWidth="174.0" />
+      <TextField fx:id="taskNameTextField" layoutX="140.0" layoutY="96.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextArea fx:id="detailsTextArea" layoutX="143.0" layoutY="250.0" prefHeight="117.0" prefWidth="200.0" />
+      <CheckBox fx:id="completeCheckBox" layoutX="143.0" layoutY="212.0" mnemonicParsing="false" text="complete" />
+      <CheckBox fx:id="incompleteCheckBox" layoutX="243.0" layoutY="212.0" mnemonicParsing="false" text="incomplete" />
+      <Button layoutX="370.0" layoutY="336.0" mnemonicParsing="false" onAction="#addTaskButtonOnClick" prefHeight="25.0" prefWidth="116.0" text="Add Task" />
    </children>
 </AnchorPane>

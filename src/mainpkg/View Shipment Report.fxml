@@ -6,10 +6,9 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="mainpkg.ViewShipmentReportController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ViewShipmentReportController">
    <children>
-      <Label alignment="CENTER" layoutX="136.0" layoutY="65.0" prefHeight="17.0" prefWidth="270.0" style="-fx-background-color: white;" text="View Shipment Report" />
+      <Label alignment="CENTER" layoutX="136.0" layoutY="65.0" prefHeight="25.0" prefWidth="270.0" style="-fx-background-color: white;" text="View Shipment Report" />
       <TableView fx:id="ViewShipmentReportTableView" layoutX="34.0" layoutY="116.0" prefHeight="200.0" prefWidth="548.0">
         <columns>
           <TableColumn fx:id="ProductTableColumn" prefWidth="64.0" text="Products" />

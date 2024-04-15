@@ -14,10 +14,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 /**
@@ -25,20 +21,7 @@ import javafx.stage.Stage;
  *
  * @author User
  */
-public class TaskScheduleController implements Initializable {
-
-    @FXML
-    private DatePicker workingDatePicker;
-    @FXML
-    private DatePicker dueDatePicker;
-    @FXML
-    private TextField taskNameTextField;
-    @FXML
-    private CheckBox completeCheckBox;
-    @FXML
-    private CheckBox incompleteCheckBox;
-    @FXML
-    private TextArea detailsTextArea;
+public class ReportController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -48,26 +31,31 @@ public class TaskScheduleController implements Initializable {
         // TODO
     }    
 
+    @FXML
+    private void viewMachineReportButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void viewMaintenanceReportButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void viewShipmentReportButtonOnClick(ActionEvent event) {
+    }
 
     @FXML
     private void BackButtonOnClick(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Task.fxml"));
+             FXMLLoader loader = new FXMLLoader(getClass().getResource("MachineMaintenanceEngineer.fxml"));
         Parent parent = loader.load();
 
         
         Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
 
-        Scene Task = new Scene(parent);
+        Scene MachineMaintenanceEngineer = new Scene(parent);
 
-        currentStage.setScene(Task);
-        currentStage.show();
+        currentStage.setScene(MachineMaintenanceEngineer);
+        currentStage.show();  
     }
-
-    @FXML
-    private void addTaskButtonOnClick(ActionEvent event) {
-    }
-
-
     
 }

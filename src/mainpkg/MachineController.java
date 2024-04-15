@@ -15,8 +15,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 /**
@@ -27,15 +31,13 @@ import javafx.stage.Stage;
 public class MachineController implements Initializable {
 
     @FXML
-    private TableColumn<Machine, Integer> MachineIdTableColumn;
+    private TableColumn<?, ?> MachineIdTableColumn;
     @FXML
-    private TableColumn<Machine, String> MachineStatusTableColumn;
+    private TableColumn<?, ?> MachineStatusTableColumn;
     @FXML
-    private TableColumn<Machine, LocalDate> LastManufacturedTableColumn;
+    private TableColumn<?, ?> LastManufacturedTableColumn;
     @FXML
-    private ComboBox<String> MonthComboBox;
-    @FXML
-    private TableColumn<Machine, Integer> MaintenanceBillTableColumn;
+    private TableColumn<?, ?> MaintenanceBillTableColumn;
     
     
 
@@ -47,9 +49,6 @@ public class MachineController implements Initializable {
         // TODO
     }    
 
-    @FXML
-    private void AddReportButtonOnClick(ActionEvent event) {
-    }
 
     @FXML
     private void BackButtonOnClick(ActionEvent event)throws IOException {
@@ -67,11 +66,8 @@ public class MachineController implements Initializable {
     }
 
     @FXML
-    private void ViewScheduledDateButtonOnClick(ActionEvent event) {
+    private void AddReportButtonOnClick(ActionEvent event) {
     }
 
-    @FXML
-    private void ViewMaintenanceButtonOnClick(ActionEvent event) {
-    }
     
 }

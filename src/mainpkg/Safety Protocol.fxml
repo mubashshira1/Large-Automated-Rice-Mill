@@ -8,7 +8,7 @@
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.SafetyProtocolController">
    <children>
       <Label alignment="CENTER" layoutX="109.0" layoutY="27.0" prefHeight="32.0" prefWidth="230.0" style="-fx-background-color: white;" text="Safety Protocols" />
-      <Button layoutX="483.0" layoutY="339.0" mnemonicParsing="false" onAction="#CloseButtonOnClick" text="Close" />
-      <TextArea fx:id="SafetyProtocolTextArea" layoutX="38.0" layoutY="73.0" prefHeight="211.0" prefWidth="503.0" text="1. Be Cautious of  heavy weights.&#10;2. Products should be labelled with required informations. &#10;    i.e (net weight, name, date of production, packed and expired, etc)&#10;3. Follow the safe systems of work set.&#10;4. Co-operate and communicate with any handling activities.&#10;5. Take reasonable care to ensure that the activities do not put themselves or others at risk." />
+      <Button layoutX="453.0" layoutY="339.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="71.0" text="Back" />
+      <TextArea fx:id="safetyProtocolsTextArea" layoutX="38.0" layoutY="73.0" prefHeight="211.0" prefWidth="503.0" text="1. Be Cautious of  heavy weights.&#10;2. Products should be labelled with required informations. &#10;    i.e (net weight, name, date of production, packed and expired, etc)&#10;3. Follow the safe systems of work set.&#10;4. Co-operate and communicate with any handling activities.&#10;5. Take reasonable care to ensure that the activities do not put themselves or others at risk." />
    </children>
 </AnchorPane>
