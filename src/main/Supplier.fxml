@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SupplierController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="559.0" prefWidth="696.0">
+         <children>
+            <Label fx:id="supplierListL" layoutX="261.0" layoutY="44.0" minHeight="16" minWidth="69" text="Supplier List">
+               <font>
+                  <Font name="Arial" size="27.0" />
+               </font>
+            </Label>
+            <Text fx:id="supplierIDL" layoutX="195.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier ID:" />
+            <TextField fx:id="supplierIDTF" layoutX="273.0" layoutY="116.0" />
+            <TableView layoutX="10.0" layoutY="265.0" prefHeight="217.0" prefWidth="674.0">
+               <columns>
+                  <TableColumn fx:id="supplierNameTB" prefWidth="117.60003662109375" text="Supplier Name" />
+                  <TableColumn fx:id="supplierIDTB" minWidth="0.0" prefWidth="75.99993896484375" text="Supplier ID" />
+                  <TableColumn fx:id="supplierEmailTB" prefWidth="170.39988708496094" text="Email" />
+                  <TableColumn fx:id="supplierContactNumberTB" prefWidth="128.800048828125" text="Contact Number" />
+                  <TableColumn fx:id="supplierAddressTB" prefWidth="180.80002441406248" text="Address" />
+               </columns>
+            </TableView>
+            <Button fx:id="findsupplierButton" layoutX="273.0" layoutY="163.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="149.0" text="Find Supplier Details ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ReportAnalysisController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="579.0" prefWidth="716.0">
+         <children>
+            <Label fx:id="reportAnalysisL" layoutX="262.0" layoutY="46.0" minHeight="16" minWidth="69" text="Report Analysis">
+               <font>
+                  <Font name="Arial" size="27.0" />
+               </font>
+            </Label>
+            <Text fx:id="reportIDL" layoutX="183.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report ID:" />
+            <TextField fx:id="reportTF" layoutX="272.0" layoutY="137.0" />
+            <TableView layoutX="10.0" layoutY="265.0" prefHeight="217.0" prefWidth="674.0">
+               <columns>
+                  <TableColumn fx:id="reportDateTB" prefWidth="117.60003662109375" text="Report Date" />
+                  <TableColumn fx:id="analyzedByTB" minWidth="0.0" prefWidth="116.00006103515625" text="Analyzed By" />
+                  <TableColumn fx:id="findingsTB" prefWidth="131.20001220703125" text="Findings " />
+                  <TableColumn fx:id="conclusionTB" prefWidth="149.59994506835938" text="Conclusions" />
+                  <TableColumn fx:id="recommandationsTB" prefWidth="159.199951171875" text="Recommandations" />
+               </columns>
+            </TableView>
+            <Button fx:id="findReportButton" layoutX="272.0" layoutY="176.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="150.0" text="Find Report Details ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
