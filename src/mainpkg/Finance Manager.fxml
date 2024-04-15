@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="mainpkg.FinanceManagerController">
+   <children>
+      <Button fx:id="CheckingTexButton" layoutX="127.0" layoutY="187.0" mnemonicParsing="false" onAction="#CheckingTexButtonOnClicked" prefHeight="64.0" prefWidth="87.0" text="Checking Tex" />
+      <Button fx:id="ProfitAndLoseGraphButton" layoutX="336.0" layoutY="71.0" mnemonicParsing="false" onAction="#ProfitAndLoseGraphButtonOnClicked" prefHeight="64.0" prefWidth="121.0" text="Profit &amp; Lose Graph" />
+      <Button fx:id="FinuncialStatementsButton" layoutX="118.0" layoutY="71.0" mnemonicParsing="false" onAction="#FinuncialStatementsButtonOnClicked" prefHeight="64.0" prefWidth="126.0" text="Finuncial Statements" />
+      <Button fx:id="RefundProductButton" layoutX="408.0" layoutY="187.0" mnemonicParsing="false" onAction="#RefundProductButtonOnClicked" prefHeight="64.0" prefWidth="99.0" text="Refund Product" />
+      <Button fx:id="PaymentButton" layoutX="270.0" layoutY="187.0" mnemonicParsing="false" onAction="#PaymentButtonOnClicked" prefHeight="64.0" prefWidth="76.0" text="Payment" />
+   </children>
+</AnchorPane>
