@@ -10,15 +10,15 @@
 <AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MaintenanceTaskController">
    <children>
       <Button layoutX="42.0" layoutY="236.0" mnemonicParsing="false" onAction="#AddMaintenanceTaskButtonOnClick" prefHeight="25.0" prefWidth="330.0" text="Add Maintenance Task" />
-      <Label alignment="CENTER" layoutX="388.0" layoutY="29.0" prefHeight="32.0" prefWidth="208.0" style="-fx-background-color: white;" text="ADD MAINTENANCE TASK" />
+      <Label alignment="CENTER" layoutX="171.0" layoutY="25.0" prefHeight="32.0" prefWidth="208.0" style="-fx-background-color: white;" text="ADD MAINTENANCE TASK" />
       <Button layoutX="29.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Back" />
       <Label layoutX="39.0" layoutY="79.0" text="Maintenance Id: " />
       <Label layoutX="39.0" layoutY="119.0" text="Maintenance Status: " />
       <Label fx:id="DateIssuedForMaintenanceDatePicker" layoutX="36.0" layoutY="155.0" text="Date Issued For Maintenance:" />
-      <Label fx:id="MaintenanceBillTextField" layoutX="39.0" layoutY="186.0" text="Maintenance Bill" />
-      <TextField fx:id="MaintenanceIdTextField" layoutX="218.0" layoutY="75.0" />
-      <TextField layoutX="219.0" layoutY="182.0" />
-      <ComboBox fx:id="MaintenanceStatusComboBox" layoutX="218.0" layoutY="115.0" prefWidth="150.0" />
-      <DatePicker fx:id="DateIssuedForMaintenanceDatePicker" layoutX="219.0" layoutY="151.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label layoutX="39.0" layoutY="186.0" text="Maintenance Bill" />
+      <TextField fx:id="maintenanceIdTextField" layoutX="218.0" layoutY="75.0" />
+      <TextField fx:id="maintenanceBillTextField" layoutX="219.0" layoutY="182.0" />
+      <ComboBox fx:id="maintenanceStatusComboBox" layoutX="218.0" layoutY="115.0" prefWidth="150.0" />
+      <DatePicker fx:id="dateIssuedForMaintenanceDatePicker" layoutX="219.0" layoutY="151.0" prefHeight="25.0" prefWidth="150.0" />
    </children>
 </AnchorPane>

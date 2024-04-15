@@ -33,6 +33,18 @@ public class AddProductsController implements Initializable {
     Alert Success = new Alert(Alert.AlertType.INFORMATION, "Succesfully Added!");
     private ComboBox<?> QuantityComboBox;
     private TextArea DetailsTextArea;
+    @FXML
+    private ComboBox<?> quantityComboBox;
+    @FXML
+    private DatePicker dispatchedDatePicker;
+    @FXML
+    private DatePicker shippingDatePicker;
+    @FXML
+    private TextField productNameTextField;
+    @FXML
+    private TextArea detailsTextArea;
+    @FXML
+    private TextField productBillTextField;
 
 
     /**
@@ -46,35 +58,39 @@ public class AddProductsController implements Initializable {
 
     @FXML
     private void AddProductsButtonOnClick(ActionEvent event) {
-       String ProductText = ProductTextField.getText();
-       if (ProductText.isEmpty())
-           Unfilled.show();
-           return;
-           
-       Integer Quantity = Integer.parseInt(QuantityText);
-       
-       
-       Integer Quantity =  QuantityComboBox.getValue();
-       if (Quantity.isEmpty()){
-            Unfilled.show();
-           return;
-       }
-       
-           
-         LocalDate Date =  DatePicker.getValue();
-       if (Date == null){
-            noDate.show();
-           return;
-       }      
-        String Details =  DetailsTextArea.getText();
-        
-         ProductLists newAR = new ProductLists(Product, Quantity, Date, Details);
-       
-       Success.show();
-       
+     String productText = productTextField.getText();
+     if (productText.isEmpty()) {
+         Unfilled.show();
+         return;
+    }
+
+    Integer quantity;
+    try {
+        quantity = Integer.parseInt(quantityTextField.getText());
+    } catch (NumberFormatException e) {
+        Unfilled.show();
+        return;
+    }
+
+    if (quantity <= 0) {
+        Unfilled.show();
+        return;
+    }
+
+    LocalDate date = DatePicker.getValue();
+    if (date == null) {
+        noDate.show();
+        return;
+    }
+    String details = DetailsTextArea.getText();
+
+    ProductLists newAR = new ProductLists(productText, quantity, date, details);
+
+    Success.show();   
+    
       
     
-       } 
+    } 
 
     @FXML
     private void BackButtonOnClick(ActionEvent event)throws IOException {
@@ -87,7 +103,6 @@ public class AddProductsController implements Initializable {
 
     }
 
-    @FXML
     private void ViewProductListButtonOnClick(ActionEvent event) {
         Scene MachineMaintenanceEngineer = new Scene(parent);
 

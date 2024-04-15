@@ -10,7 +10,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MachineController">
    <children>
-      <TableView layoutX="56.0" layoutY="184.0" prefHeight="129.0" prefWidth="421.0">
+      <TableView layoutX="56.0" layoutY="184.0" prefHeight="119.0" prefWidth="421.0">
         <columns>
           <TableColumn fx:id="MachineIdTableColumn" prefWidth="75.0" text="Machine ID" />
             <TableColumn fx:id="MachineStatusTableColumn" prefWidth="97.0" text="Machine Status" />
@@ -18,15 +18,13 @@
             <TableColumn fx:id="MaintenanceBillTableColumn" prefWidth="126.0" text="Maintenance Bill" />
         </columns>
       </TableView>
-      <Label alignment="CENTER" layoutX="410.0" layoutY="24.0" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: white;" text="MACHINE REPORT" />
-      <Button layoutX="490.0" layoutY="213.0" mnemonicParsing="false" onAction="#AddReportButtonOnClick" prefHeight="25.0" prefWidth="84.0" text="Add Report" />
+      <Label alignment="CENTER" layoutX="214.0" layoutY="24.0" prefHeight="25.0" prefWidth="160.0" style="-fx-background-color: white;" text="MACHINE REPORT" />
+      <Button layoutX="56.0" layoutY="323.0" mnemonicParsing="false" onAction="#AddReportButtonOnClick" prefHeight="25.0" prefWidth="421.0" text="Add Report" />
       <Label layoutX="61.0" layoutY="123.0" prefHeight="17.0" prefWidth="119.0" text="Week Of The Month: " />
       <TextField layoutX="219.0" layoutY="119.0" promptText="nth week of the month?" />
       <Label layoutX="61.0" layoutY="155.0" prefHeight="17.0" prefWidth="513.0" text="The Table Shows Weekly Report Of The Selected Month:-" />
       <Label layoutX="61.0" layoutY="88.0" prefHeight="17.0" prefWidth="119.0" text="Month:" />
       <ComboBox fx:id="MonthComboBox" layoutX="219.0" layoutY="84.0" prefWidth="150.0" />
       <Button layoutX="31.0" layoutY="24.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="25.0" prefWidth="84.0" text="Back" />
-      <Button layoutX="56.0" layoutY="325.0" mnemonicParsing="false" onAction="#ViewScheduledDateButtonOnClick" prefHeight="25.0" prefWidth="421.0" text="View Scheduled Date" />
-      <Button layoutX="56.0" layoutY="361.0" mnemonicParsing="false" onAction="#ViewMaintenanceButtonOnClick" prefHeight="25.0" prefWidth="421.0" text="View Maintenance" />
    </children>
 </AnchorPane>

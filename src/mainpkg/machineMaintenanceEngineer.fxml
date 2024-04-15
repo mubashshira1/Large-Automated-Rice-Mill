@@ -18,35 +18,33 @@
       <Label layoutX="182.0" layoutY="344.0" text="machine maintenance engineer name: mubasshira" />
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
         <menus>
-          <Menu fx:id="HomeMenu" mnemonicParsing="false" text="Home" />
-          <Menu fx:id="ProfileMenu" mnemonicParsing="false" text="Profile">
+          <Menu fx:id="homeMenu" mnemonicParsing="false" text="Home" />
+          <Menu fx:id="profileMenu" mnemonicParsing="false" text="Profile">
             <items>
               <MenuItem fx:id="EditProfileMenuItem" mnemonicParsing="false" text="Edit Profile" />
                   <MenuItem fx:id="CommunicateMenuItem" mnemonicParsing="false" text="Communicate" />
                   <MenuItem fx:id="SignOutMenuItem" mnemonicParsing="false" text="Sign Out" />
             </items>
           </Menu>
-            <Menu fx:id="ViewMenu" mnemonicParsing="false" text="View">
+            <Menu fx:id="viewMenu" mnemonicParsing="false" text="View">
               <items>
-                <MenuItem fx:id="ProductsMenuItem" mnemonicParsing="false" text="Products" />
-                  <MenuItem fx:id="MaintenanceReportMenuItem" mnemonicParsing="false" text="Maintenance Report" />
-                  <MenuItem fx:id="MaintenanceScheduleMenuItem" mnemonicParsing="false" text="Maintenance Schedules" />
-                  <MenuItem fx:id="MaintenanceHistoryMenuItem" mnemonicParsing="false" text="Maintenance History" />
-                  <MenuItem fx:id="ShipmentHistoryMenuItem" mnemonicParsing="false" text="Shipment History" />
-                  <MenuItem fx:id="ShipmentReport" mnemonicParsing="false" text="Shipment Reports" />
-                  <MenuItem fx:id="TaskMenuItem" mnemonicParsing="false" text="Task" />
-                  <MenuItem fx:id="StatusMenuItem" mnemonicParsing="false" text="Status" />
-                  <MenuItem mnemonicParsing="false" text="Safety Protocols" />
+                <MenuItem fx:id="productsMenuItem" mnemonicParsing="false" text="Products" />
+                  <MenuItem fx:id="maintenanceReportMenuItem" mnemonicParsing="false" text="Maintenance Report" />
+                  <MenuItem fx:id="maintenanceScheduleMenuItem" mnemonicParsing="false" text="Maintenance Schedules" />
+                  <MenuItem fx:id="maintenanceHistoryMenuItem" mnemonicParsing="false" text="Maintenance History" />
+                  <MenuItem fx:id="shipmentHistoryMenuItem" mnemonicParsing="false" text="Shipment History" />
+                  <MenuItem fx:id="shipmentReportMenuItem" mnemonicParsing="false" text="Shipment Reports" />
+                  <MenuItem fx:id="tasksMenuItem" mnemonicParsing="false" text="Tasks" />
+                  <MenuItem fx:id="statusMenuItem" mnemonicParsing="false" text="Status" />
+                  <MenuItem fx:id="safetyProtocolsMenuItem" mnemonicParsing="false" text="Safety Protocols" />
               </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Edit">
+            <Menu fx:id="editMenu" mnemonicParsing="false" text="Edit">
               <items>
-                <MenuItem mnemonicParsing="false" text="Products" />
-                  <MenuItem mnemonicParsing="false" text="Task" />
-                  <MenuItem mnemonicParsing="false" text="Maintenance Reports" />
-                  <MenuItem mnemonicParsing="false" text="Maintenance Schedules" />
-                  <MenuItem mnemonicParsing="false" text="Machine Bills" />
-                  <MenuItem fx:id="MaintenanceBills" mnemonicParsing="false" text="Maintenance Bills" />
+                <MenuItem fx:id="productsMenuItem" mnemonicParsing="false" text="Products" />
+                  <MenuItem fx:id="tasksMenuItem" mnemonicParsing="false" text="Tasks" />
+                  <MenuItem fx:id="maintenanceReportsMenuItem" mnemonicParsing="false" text="Maintenance Reports" />
+                  <MenuItem fx:id="maintenanceSchedulesMenuItem" mnemonicParsing="false" text="Maintenance Schedules" />
               </items>
             </Menu>
         </menus>

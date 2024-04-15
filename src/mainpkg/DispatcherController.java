@@ -19,31 +19,37 @@ import javafx.scene.control.MenuItem;
 public class DispatcherController implements Initializable {
 
     @FXML
-    private Menu HomeMenu;
-    @FXML
-    private Menu ProfileMenu;
-    @FXML
     private MenuItem EditProfileMenuItem;
     @FXML
-    private MenuItem CommunicateMenuItem;
+    private MenuItem TasksMenuItem;
     @FXML
-    private Menu ViewMenu;
+    private MenuItem SchedulesMenuItem;
     @FXML
-    private MenuItem ItemMenuItem;
+    private MenuItem ShipmentReportsMenuItem;
     @FXML
-    private MenuItem TaskMenuItem;
+    private MenuItem SignOutMenuItem1;
     @FXML
-    private MenuItem ScheduleMenuItem;
+    private Menu homeMenu;
     @FXML
-    private MenuItem ShipmentStatusMenuItem;
+    private Menu profileMenu;
     @FXML
-    private MenuItem ShipmentScheduleMenuItem;
+    private Menu viewMenu;
     @FXML
-    private MenuItem ShipmentHistoryMenuItem;
+    private MenuItem productsMenuItem;
     @FXML
-    private MenuItem SafetyProtocolMenuItem;
+    private MenuItem tasksMenuItem;
     @FXML
-    private MenuItem CommunicateMenuItem1;
+    private MenuItem scheduleMenuItem;
+    @FXML
+    private MenuItem shipmentStatusMenuItem;
+    @FXML
+    private MenuItem shipmentScheduleMenuItem;
+    @FXML
+    private MenuItem shipmentHistoryMenuItem;
+    @FXML
+    private MenuItem safetyProtocolMenuItem;
+    @FXML
+    private Menu editMenu;
 
     /**
      * Initializes the controller class.

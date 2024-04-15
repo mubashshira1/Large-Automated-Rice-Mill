@@ -32,6 +32,16 @@ import javafx.stage.Stage;
 public class MaintenanceTaskController implements Initializable {
 
     private Label MaintenanceStatusComboBox;
+    @FXML
+    private Label DateIssuedForMaintenanceDatePicker;
+    @FXML
+    private TextField maintenanceIdTextField;
+    @FXML
+    private TextField maintenanceBillTextField;
+    @FXML
+    private ComboBox<?> maintenanceStatusComboBox;
+    @FXML
+    private DatePicker dateIssuedForMaintenanceDatePicker;
 
 
     /**
@@ -51,7 +61,6 @@ public class MaintenanceTaskController implements Initializable {
         sceneSwitch("/com/MachineMaintenanceEngineer/views/Maintenance/AddMaintenanceTaskButtonOnClick.fxml"); 
     }
 
-    @FXML
     private void BackButtonOnCLick(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Task.fxml"));
         Parent parent = loader.load();
@@ -66,9 +75,6 @@ public class MaintenanceTaskController implements Initializable {
         currentStage.show();
     }
 
-    @FXML
-    private void ViewMaintenanceHistoryButtonOnClick(ActionEvent event) {
-    }
 
     
 }

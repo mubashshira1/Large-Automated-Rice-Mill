@@ -48,7 +48,6 @@ public class TaskController implements Initializable {
         currentStage.show();    
     }
 
-    @FXML
     private void ViewTaskButtonOnClick(ActionEvent event) {
     sceneSwitch("/com/MachineMaintenanceEngineer/views/Task/ViewTaskButtonOnClick.fxml");
     }
@@ -68,9 +67,12 @@ public class TaskController implements Initializable {
     sceneSwitch("/com/MachineMaintenanceEngineer/views/Task/ViewMaintenanceTaskTaskButtonOnClick.fxml");    
     }
 
-    @FXML
     private void ViewShipmentTaskButtonOnClick(ActionEvent event) {
     sceneSwitch("/com/MachineMaintenanceEngineer/views/Task/ViewShipmentTaskButtonOnClick.fxml");   
+    }
+
+    @FXML
+    private void ViewScheduleButtonOnClick(ActionEvent event) {
     }
     
 }

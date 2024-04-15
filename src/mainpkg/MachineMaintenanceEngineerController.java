@@ -22,35 +22,41 @@ public class MachineMaintenanceEngineerController implements Initializable {
     @FXML
     private Label l;
     @FXML
-    private Menu HomeMenu;
-    @FXML
-    private Menu ProfileMenu;
-    @FXML
     private MenuItem EditProfileMenuItem;
     @FXML
     private MenuItem CommunicateMenuItem;
     @FXML
     private MenuItem SignOutMenuItem;
     @FXML
-    private Menu ViewMenu;
+    private Menu homeMenu;
     @FXML
-    private MenuItem ProductsMenuItem;
+    private Menu profileMenu;
     @FXML
-    private MenuItem MaintenanceReportMenuItem;
+    private Menu viewMenu;
     @FXML
-    private MenuItem MaintenanceScheduleMenuItem;
+    private MenuItem productsMenuItem;
     @FXML
-    private MenuItem MaintenanceHistoryMenuItem;
+    private MenuItem maintenanceReportMenuItem;
     @FXML
-    private MenuItem ShipmentHistoryMenuItem;
+    private MenuItem maintenanceScheduleMenuItem;
     @FXML
-    private MenuItem ShipmentReport;
+    private MenuItem maintenanceHistoryMenuItem;
     @FXML
-    private MenuItem TaskMenuItem;
+    private MenuItem shipmentHistoryMenuItem;
     @FXML
-    private MenuItem StatusMenuItem;
+    private MenuItem shipmentReportMenuItem;
     @FXML
-    private MenuItem MaintenanceBills;
+    private MenuItem tasksMenuItem;
+    @FXML
+    private MenuItem statusMenuItem;
+    @FXML
+    private MenuItem safetyProtocolsMenuItem;
+    @FXML
+    private Menu editMenu;
+    @FXML
+    private MenuItem maintenanceReportsMenuItem;
+    @FXML
+    private MenuItem maintenanceSchedulesMenuItem;
 
     /**
      * Initializes the controller class.

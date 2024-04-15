@@ -45,12 +45,12 @@ public class ProductsController implements Initializable {
 
     @FXML
     private void AddProductsButtonOnClick(ActionEvent event) {
-    sceneSwitch("/com/MachineMaintenanceEngineer/views/Product/AddProductsButtonOnClick.fxml"); 
+        sceneSwitch("/com/MachineMaintenanceEngineer/views/Product/AddProductsButtonOnClick.fxml"); 
     }
 
     @FXML
     private void ViewProductBillButtonOnClick(ActionEvent event) {
-    sceneSwitch("/com/MachineMaintenanceEngineer/views/Product/ViewProductBillButtonOnClick.fxml");     
+        sceneSwitch("/com/MachineMaintenanceEngineer/views/Product/ViewProductBillButtonOnClick.fxml");     
     }
 
     @FXML

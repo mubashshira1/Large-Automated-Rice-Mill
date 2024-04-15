@@ -27,17 +27,17 @@ import javafx.stage.Stage;
 public class TaskScheduleController implements Initializable {
 
     @FXML
-    private DatePicker WorkingDatePicker;
-    @FXML
-    private DatePicker DueDatePicker;
-    @FXML
-    private TextField TaskNameTextField;
-    @FXML
     private TextArea DetailsTextArea;
     @FXML
-    private CheckBox CompleteCheckBox;
+    private DatePicker workingDatePicker;
     @FXML
-    private CheckBox IncompleteCheckBox;
+    private DatePicker dueDatePicker;
+    @FXML
+    private TextField taskNameTextField;
+    @FXML
+    private CheckBox completeCheckBox;
+    @FXML
+    private CheckBox incompleteCheckBox;
 
     /**
      * Initializes the controller class.

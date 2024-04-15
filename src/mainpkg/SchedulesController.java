@@ -28,9 +28,6 @@ public class SchedulesController implements Initializable {
         // TODO
     }    
 
-    @FXML
-    private void CloseButtonOnClick(ActionEvent event) {
-    }
 
     @FXML
     private void BackButtonOnClick(ActionEvent event) {

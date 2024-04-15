@@ -10,7 +10,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ShipmentController">
    <children>
-      <Label alignment="CENTER" layoutX="326.0" layoutY="24.0" prefHeight="25.0" prefWidth="228.0" style="-fx-background-color: white;" text="SHIPMENT REPORT" />
+      <Label alignment="CENTER" layoutX="145.0" layoutY="26.0" prefHeight="25.0" prefWidth="270.0" style="-fx-background-color: white;" text="SHIPMENT REPORT" />
       <Label layoutX="147.0" layoutY="76.0" prefHeight="17.0" prefWidth="92.0" text="Shipper's ID:" />
       <Label layoutX="145.0" layoutY="109.0" prefHeight="17.0" prefWidth="83.0" text="Shipping Id:" />
       <ComboBox fx:id="ShipperIdComboBox" layoutX="290.0" layoutY="72.0" prefHeight="25.0" prefWidth="124.0" />

@@ -11,31 +11,31 @@
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="52.0" prefHeight="17.0" prefWidth="308.0" text="LARGE AUTOMATED RICE MILL" />
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
         <menus>
-          <Menu fx:id="HomeMenu" mnemonicParsing="false" text="Home" />
-          <Menu fx:id="ProfileMenu" mnemonicParsing="false" text="Profile">
+          <Menu fx:id="homeMenu" mnemonicParsing="false" text="Home" />
+          <Menu fx:id="profileMenu" mnemonicParsing="false" text="Profile">
             <items>
               <MenuItem fx:id="EditProfileMenuItem" mnemonicParsing="false" text="Edit Profile" />
-                  <MenuItem fx:id="CommunicateMenuItem" mnemonicParsing="false" text="Communicate" />
-                  <MenuItem fx:id="CommunicateMenuItem1" mnemonicParsing="false" text="Sign Out" />
+                  <MenuItem fx:id="EditProfileMenuItem" mnemonicParsing="false" text="Communicate" />
+                  <MenuItem fx:id="SignOutMenuItem1" mnemonicParsing="false" text="Sign Out" />
             </items>
           </Menu>
-          <Menu fx:id="ViewMenu" mnemonicParsing="false" text="View">
+          <Menu fx:id="viewMenu" mnemonicParsing="false" text="View">
             <items>
-                  <MenuItem fx:id="ItemMenuItem" mnemonicParsing="false" text="Items" />
-              <MenuItem fx:id="TaskMenuItem" mnemonicParsing="false" text="Tasks" />
-                  <MenuItem fx:id="ScheduleMenuItem" mnemonicParsing="false" text="Schedules" />
-                  <MenuItem fx:id="ShipmentStatusMenuItem" mnemonicParsing="false" text="Shipment Status" />
-                  <MenuItem fx:id="ShipmentScheduleMenuItem" mnemonicParsing="false" text="Shipment Schedule" />
-                  <MenuItem fx:id="ShipmentHistoryMenuItem" mnemonicParsing="false" text="Shipment History" />
-                  <MenuItem fx:id="SafetyProtocolMenuItem" mnemonicParsing="false" text="Safety Protocol" />
+                  <MenuItem fx:id="productsMenuItem" mnemonicParsing="false" text="Products" />
+              <MenuItem fx:id="tasksMenuItem" mnemonicParsing="false" text="Tasks" />
+                  <MenuItem fx:id="scheduleMenuItem" mnemonicParsing="false" text="Schedules" />
+                  <MenuItem fx:id="shipmentStatusMenuItem" mnemonicParsing="false" text="Shipment Status" />
+                  <MenuItem fx:id="shipmentScheduleMenuItem" mnemonicParsing="false" text="Shipment Schedule" />
+                  <MenuItem fx:id="shipmentHistoryMenuItem" mnemonicParsing="false" text="Shipment History" />
+                  <MenuItem fx:id="safetyProtocolMenuItem" mnemonicParsing="false" text="Safety Protocol" />
             </items>
           </Menu>
-            <Menu mnemonicParsing="false" text="Edit">
+            <Menu fx:id="editMenu" mnemonicParsing="false" text="Edit">
                <items>
-                  <MenuItem mnemonicParsing="false" text="Items" />
-                  <MenuItem mnemonicParsing="false" text="My Tasks" />
-                  <MenuItem mnemonicParsing="false" text="Schedules" />
-                  <MenuItem mnemonicParsing="false" text="Shipment Reports" />
+                  <MenuItem fx:id="productsMenuItem" mnemonicParsing="false" text="Products" />
+                  <MenuItem fx:id="TasksMenuItem" mnemonicParsing="false" text="Tasks" />
+                  <MenuItem fx:id="SchedulesMenuItem" mnemonicParsing="false" text="Schedules" />
+                  <MenuItem fx:id="ShipmentReportsMenuItem" mnemonicParsing="false" text="Shipment Reports" />
                </items>
             </Menu>
         </menus>
